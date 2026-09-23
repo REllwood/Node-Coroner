@@ -1,0 +1,16 @@
+{
+  "format": "node-coroner.bundle.v1",
+  "nodeVersion": "22.17.0",
+  "command": "node --unhandled-rejections=strict worker.mjs",
+  "outcome": { "exitCode": 1, "signal": null },
+  "evidence": [
+    {
+      "id": "stderr-1",
+      "kind": "stderr",
+      "source": "captured stderr",
+      "timestamp": "2026-07-24T01:03:00.000Z",
+      "timestampQuality": "exact",
+      "text": "UnhandledPromiseRejection: upstream request rejected"
+    }
+  ]
+}

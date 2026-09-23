@@ -1,0 +1,16 @@
+{
+  "format": "node-coroner.bundle.v1",
+  "nodeVersion": "22.17.0",
+  "command": "node native-addon.mjs",
+  "outcome": { "exitCode": null, "signal": "SIGSEGV" },
+  "evidence": [
+    {
+      "id": "process-1",
+      "kind": "process",
+      "source": "process manager",
+      "timestamp": "2026-07-24T01:04:00.000Z",
+      "timestampQuality": "derived",
+      "text": "child ended after segmentation fault"
+    }
+  ]
+}

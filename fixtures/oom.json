@@ -1,0 +1,24 @@
+{
+  "format": "node-coroner.bundle.v1",
+  "nodeVersion": "22.17.0",
+  "command": "node --max-old-space-size=64 service.mjs",
+  "outcome": { "exitCode": 134, "signal": "SIGABRT" },
+  "evidence": [
+    {
+      "id": "stderr-1",
+      "kind": "stderr",
+      "source": "captured stderr",
+      "timestamp": "2026-07-24T01:01:09.100Z",
+      "timestampQuality": "exact",
+      "text": "FATAL ERROR: Reached heap limit Allocation failed - JavaScript heap out of memory at /Users/example/private/service.mjs"
+    },
+    {
+      "id": "diagnostic-1",
+      "kind": "diagnostic",
+      "source": "Node diagnostic report",
+      "timestamp": "2026-07-24T01:01:09.102Z",
+      "timestampQuality": "exact",
+      "data": { "event": "Allocation failed", "javascriptHeap": { "totalMemory": 67108864 } }
+    }
+  ]
+}

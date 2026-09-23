@@ -1,0 +1,24 @@
+{
+  "name": "node-coroner",
+  "version": "0.1.0",
+  "description": "Turn a dead Node.js process into a short, evidence-backed incident report.",
+  "private": true,
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/REllwood/NodeCoroner.git"
+  },
+  "homepage": "https://github.com/REllwood/NodeCoroner#readme",
+  "bugs": {
+    "url": "https://github.com/REllwood/NodeCoroner/issues"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node src/start.js",
+    "test": "node --test",
+    "check": "node scripts/check.mjs"
+  }
+}

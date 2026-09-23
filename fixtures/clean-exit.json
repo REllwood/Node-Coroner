@@ -1,0 +1,16 @@
+{
+  "format": "node-coroner.bundle.v1",
+  "nodeVersion": "22.17.0",
+  "command": "node service.mjs",
+  "outcome": { "exitCode": 0, "signal": null },
+  "evidence": [
+    {
+      "id": "log-1",
+      "kind": "process",
+      "source": "saved process log",
+      "timestamp": "2026-07-24T01:00:00.000Z",
+      "timestampQuality": "exact",
+      "text": "shutdown complete"
+    }
+  ]
+}
