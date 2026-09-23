@@ -25,8 +25,8 @@ When a Node.js process dies you're left with an exit code, some stderr and a hun
 Requires Node.js 22 or newer. No `npm install` needed.
 
 ```sh
-git clone https://github.com/REllwood/NodeCoroner.git
-cd NodeCoroner
+git clone https://github.com/REllwood/Node-Coroner.git
+cd Node-Coroner
 npm start -- analyse fixtures/oom.json
 ```
 

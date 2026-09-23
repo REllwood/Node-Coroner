@@ -6,11 +6,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/REllwood/NodeCoroner.git"
+    "url": "git+https://github.com/REllwood/Node-Coroner.git"
   },
-  "homepage": "https://github.com/REllwood/NodeCoroner#readme",
+  "homepage": "https://github.com/REllwood/Node-Coroner#readme",
   "bugs": {
-    "url": "https://github.com/REllwood/NodeCoroner/issues"
+    "url": "https://github.com/REllwood/Node-Coroner/issues"
   },
   "type": "module",
   "engines": {
